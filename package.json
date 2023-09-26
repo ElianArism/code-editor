@@ -1,0 +1,15 @@
+{
+  "name": "code-editor",
+  "version": "1.0.0",
+  "description": "Code editor in Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elian Arismendi <elianarism@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^26.2.2"
+  }
+}
