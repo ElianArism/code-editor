@@ -6,9 +6,11 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Code editor</title>
+
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="stylesheet" href="./css/title-bar.css" />
+
+    <title>Code editor</title>
   </head>
   <body>
     <div class="container">
@@ -16,14 +18,15 @@
         <nav class="title-bar">
           <h3>Snippets</h3>
 
-          <ul>
-            <li>-</li>
-            <li>[ ]</li>
-            <li>x</li>
+          <ul class="window-actions">
+            <li id="minimize">-</li>
+            <li id="maximize">[ ]</li>
+            <li id="close">x</li>
           </ul>
         </nav>
       </header>
       <h1>Hello world with Electron JS !</h1>
     </div>
+    <script src="./js/navbar-actions.js"></script>
   </body>
 </html>
